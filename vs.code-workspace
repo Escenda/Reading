@@ -1,0 +1,59 @@
+{
+  "folders": [
+    {
+      "path": "./"
+    },
+    {
+      "path": "packages/web"
+    },
+    {
+      "path": "packages/supabase"
+    },
+    {
+      "path": "packages/shared"
+    }
+  ],
+  "settings": {
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/*.code-search": true,
+      "/dist": true,
+      "/packages/*/dist": true,
+      "/data": true,
+      "/packages/mobile": true
+    },
+    "typescript.tsdk": "Gijirokukun\\node_modules\\typescript\\lib",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "hex-ci.stylelint-plus",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "msjsdiag.vscode-react-native",
+      "naumovs.color-highlight",
+      "anseki.vscode-color",
+      "toba.vsfire"
+    ]
+  }
+}
