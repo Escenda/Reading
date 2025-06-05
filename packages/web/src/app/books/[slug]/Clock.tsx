@@ -3,8 +3,6 @@
 import { Database } from "@/shared/src/models/schema"
 import { useEffect, useState } from "react"
 
-import { isReading } from "~/hooks/useReads"
-
 const Clock = ({
   reads,
 }: {
